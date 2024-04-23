@@ -1,0 +1,4 @@
+baseURL = 'https://portfolio.hobcloud.net'
+languageCode = 'en-us'
+title = 'William Hobson Portfolio'
+theme = "PaperMod"
