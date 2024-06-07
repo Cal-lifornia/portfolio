@@ -2,13 +2,10 @@
 title = 'Home'
 date = 2024-04-23T19:52:07+10:00
 draft = false
-toc = true
 ShowToc = true
 UseHugoToc = true 
 TocOpen = true
 +++
-
-{{< custom-toc >}}
 ## About Me
 *LinkedIn Profile: www.linkedin.com/in/william-h-4b5575116*
 
