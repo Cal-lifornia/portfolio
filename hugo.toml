@@ -2,3 +2,10 @@ baseURL = 'https://portfolio.hobcloud.net'
 languageCode = 'en-us'
 title = 'William Hobson Portfolio'
 theme = "PaperMod"
+tableOfContents = true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
