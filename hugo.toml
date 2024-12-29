@@ -1,11 +1,42 @@
 baseURL = 'https://portfolio.hobcloud.net'
 languageCode = 'en-us'
-title = 'William Hobson Portfolio'
+title = 'William Hobson Blog/Portfolio'
 theme = "PaperMod"
 tableOfContents = true
+# sectionPagesMenu = "menu"
+outputs.home = ["HTML", "RSS", "JSON"]
 
 [markup]
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
+[markup.tableOfContents]
+endLevel = 4
+ordered = false
+startLevel = 1
+
+[params]
+[params.homeInfoParams]
+title = "William Hobson's Blog/Portfolio"
+content = "Hello welcome to my personal blog which also doubles as a portfolio for myself."
+[[params.socialIcons]]
+name = "linkedin"
+url = "www.linkedin.com/in/william-h-4b5575116"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Cal-lifornia"
+
+[menus]
+# [[menus.main]]
+# name = 'Home'
+# pageRef = '/'
+# weight = 10
+[[menus.main]]
+name = 'Blog'
+pageRef = '/blog'
+weight = 20
+[[menus.main]]
+name = 'About Me'
+pageRef = '/aboutme'
+weight = 30
+[[menus.main]]
+name = 'Search'
+pageRef = '/search'
+weight = 40

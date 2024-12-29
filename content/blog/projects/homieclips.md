@@ -1,25 +1,17 @@
 +++
-title = 'Home'
-date = 2024-04-23T19:52:07+10:00
+title = 'Homie Clips'
+date = 2024-12-27T17:39:32+11:00
 draft = false
 ShowToc = true
 UseHugoToc = true 
 TocOpen = true
 +++
-## About Me
-*LinkedIn Profile: www.linkedin.com/in/william-h-4b5575116*
-
-*GitHub Profile: https://github.com/Cal-lifornia*
-
-My name is William Hobson, I am a Desktop Support Engineer currently working at Flying Bark Productions. I have an avid interest in all things media and tech.
-
-I have a great interest in learning Programming in order to join the tech industry, in doing so I have applied myself to create different applications. My current focus is on a web app I have called HomieClips
-## Homie Clips
-Homie Clips is an app that I am currently working on, it's an app my friends will be able to use to upload and view their short clips that they have captured from games or other content. Since we don't have a central app for that. 
+# Overview
+Homie Clips was an app that I was working on, it's an app my friends will be able to use to upload and view their short clips that they have captured from games or other content. Since we don't have a central app for that. 
 
 All the clips will be hosted in S3, and using CORS it will allow easy, safe and fast streaming access while being relatively cheap and easy to use.
-### Goals
-#### Fundamental
+## Goals
+### Fundamental
 - Allow my friends to upload short clips that they have created 
 - Be able to stream the videos from any device quickly and easily
 - A pleasing user experience
@@ -28,12 +20,12 @@ All the clips will be hosted in S3, and using CORS it will allow easy, safe and 
 - Automatic transcoding of uploaded files to HLS including multiple video qualities
 - When uploading games naming the game they belong to
 - Only those I choose can sign in via Discord and access the site
-#### Future
+### Future
 - Use the [IGDB](https://www.igdb.com/) to provide the list of games to select as well as use the cover art for categorising
 - Include playlists for viewing
 - Have the ability to download the clips
-### Services
-#### Main Backend & Frontend: Homie Clips
+## Services
+### Main Backend & Frontend: Homie Clips
 *Repository Link: https://github.com/Cal-lifornia/homieclips*
 
 This is both the main frontend and backend of the Homie Clips app which is being built in Golang. 
